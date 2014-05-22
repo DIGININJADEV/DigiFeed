@@ -121,7 +121,8 @@ feelingsObj = {};
 					$fontTypeIndex = Math.floor( Math.random() * ( 0 + $fontTypes.length - 0 ) ) + 0;
 					console.log('['+$fontTypeIndex+']'+$fontTypes[$fontTypeIndex]);
 					$text = '<div id="feeling" class="'+$feeling+'" style="font-size:'+$fontSize+'em; float: left; margin: 5px; font-family:'+$fontTypes[$fontTypeIndex]+' !important;">'+$feeling+'</div>';
-					$('#textfeedList').append($text);
+                    $randFadeInInt = getRandomInt(500, 1500);
+					$('#textfeedList').append($text).hide().fadeIn($randFadeInInt);
 				
 		}
 		
@@ -155,7 +156,9 @@ feelingsObj = {};
 				*/			
 		}
 	
-		
+		function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
 		function cycleRandomSentenceOne(){
 		$randSentenceIndex = Math.floor( Math.random() * ( 0 + $allSentences.length - 0 ) ) + 0;
 		$randomSentence = $allSentences[$randSentenceIndex];		
