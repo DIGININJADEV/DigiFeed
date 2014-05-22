@@ -1,3 +1,19 @@
+html { 
+  background: url(images/black-squares-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{	
+color:#fff;
+font-family: Arial, sans-serif;
+font-size:11px;
+line-height: 22px;
+padding:0px;
+margin:0px;	
+}
 #feeds{
 	position: relative;
 	width:  auto;
@@ -27,21 +43,32 @@
 }
 #feedList li{
 	float: left;
-	height: 100px;
+	height: 180px;
 	text-align: center;
-	width: 250px;
-	max-width:  200px;
+	width: 350px;
+	max-width:  210px;
 	overflow:  hidden;
 	margin: 5px 5px 5px 0;
-	padding: 5px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
 	margin-bottom: 5px;
-	background-color:  rgba(0,0,0,.3);
+	background-color:  rgba(255,255,255,.8);
 	border-radius: 5px;
+	overflow:hidden;
 }
 #feedList li label{
-	font-size: 0.9em;
+	font-size: 1.3em;
 	font-weight:  bold;
 	color: rgba(0,0,0,1);
+	overflow-wrap: break-word;
+}
+#feedList li div{
+	position:relative;
+	left: 0px;
+	margin-top: 3px;
+	font-size: 1em;
+	font-weight:bold;
+	font-style:italic;
+	color: rgba(0,0,0,0.8);
 	overflow-wrap: break-word;
 }
 #feedList h2{
@@ -50,4 +77,65 @@
 	color: rgba(0,0,0,1);
 	padding: 5px 0 5px 0;
 	margin: 0px;
+}
+
+#textfeedList{
+	position: relative;
+	top: -25px;
+	margin: 0 auto;
+	width:  91%;
+	height: auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+#textfeeds h1{
+	font-size: 1.3em;
+	text-indent: 40px;
+	font-weight:  bold;
+	color: rgba(255,255,255,1);
+	padding: 5px 0 5px 0;
+	margin: 0px;
+}
+#textfeedList div{
+	position: relative;
+	float: left;
+	width: auto;
+	width: auto;
+	font-size: 1.3em;
+	font-weight:  bold;
+	color: rgba(255,255,255,.1);
+	cursor: pointer;
+}
+#textfeedList span{
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	font-size: 1.3em;
+	font-weight:  bold;
+	color: rgba(255,255,255,.1);
+}
+.Moved,.Virtuous,.Confident,.Better,.Happier,.Satisfying,.Solid,.Relevant,.Safe,.Discombobulated,.Fast,.Validated,.Aware,.Vindicated,.Done,.Comfortable,.Bonded,.Fabulous,.Closer,.Learned,.Perfect,.Warm,.Delighted,.Ahead,.Doable,.Good,.Needed,.Ready,.Content,.Magnetic,.Light,.Accomplished,.Higher,.Happy,.Handsome,.Fly,.Worthy,.Pink,.Covered,.Alive,.Complete,.Wanted,.Social,.Hot,.Okay,.Grateful,.Liberated,.Realistic,.Deep,.New,.Present,.Sunrise,.Equal,.Relieved,.Normal,.Sharp,.Craftiest,.Easier,.Free,.Best,.Springtime,.Appropriate,.Powerful,.Destined,.Invincible,.Welcomed,.Nice,.Found,.Ground,.Sane,.Important,.Knowing,.Awake,.Full,.Brave,.Whole,.Friendly,.Smiling,.Hopeful,.Blessed,.Able,.Convinced,.Refreshed,.Hydrated,.Enthusiastic,.Peaceful,.Fine,.Finished,.Euphoric,.Real,.Romance,.High,.Healthful,.Home,.Convicted,.Prepared,.Sound,.True,.Daring,.Amazed,.Necessary,.Human,.Natural,.Healthier,.Pulsating,.Ok,.Accepted,.Interesting,.Arriving,.Merrier,.Productive,.Renewed,.Dominating,.Creative,.Expecting,.Well,.Excited,.Qualified,.Tough,.Responsible,.Bubbling,.Clean,.Amazing,.Stable,.Optimistic,.Made,.Sure,.Modern,.Awesome,.Won,.Cleaned,.American,.Understanding,.Welcome,.Adventurous,.Crafty,.Clear,.Lesbian,.Rested,.Relaxed,.Inspired,.Conscious,.Remarkable,.Luckiest,.Lucky,.Elated,.Fair,.Grown,.Lavish,.Wistful,.Justified,.Satisfied,.Reassuring,.Tame,.Calming,.Mighty,.Capable,.Listless,.Encouraging,.Pleased,.Fluid,.Great,.Connected,.Thankful,.Clever,.Strong,.Academic,.Scholarly,.Holier,.Beautiful,.Certain,.Proud,.Nostalgic,.Honest,.Special,.Early,.Fortunate,.Younger,.Talented,.Valid,.Right,.Liked,.Fun,.Loved{
+	color:#0F0 !important;
+}
+
+.Sick,.Black,.Disappointed,.Cracked,.Short,.Off,.Hypocritical,.Anxious,.Awful,.Weak,.Slow,.Massive,.Burst,.Silly,.Idiotic,.Tired,.Panic,.Angry,.Smaller,.Huge,.Unnecessary,.Big,.Shy,.Different,.Incoherent,.Exhausted,.Empty,.Down,.Busy,.Low,.Behind,.Jealous,.Dread,.Failed,.Squishy,.Inferior,.Marching,.Defeated,.Fallen,.Emotional,.Backward,.Ill,.Miniature,.Slight,.Uncomfortable,.Fat,.Resentful,.Forced,.Threatened,.Confusing,.Ashamed,.Mediocre,.Lackadaisical,.Lost,.Darned,.Raw,.Tiny,.Terrifying,.Vulnerable,.Cheating,.Hopeless,.Rambling,.Dirty,.Grieving,.Insane,.Teensy,.Wrong,.Strange,.Scared,.Nuts,.Greedy,.Harsh,.Absurd,.Alone,.Drained,.Melting,.Reclining,.Smug,.Useless,.Horrible,.Inadequate,.Mean,.Terrible,.Discontented,.Trapped,.Broken,.Ugly,.Lonely,.Woozy,.Odd,.Bratty,.Sorry,.Dull,.Irritated,.Bitter,.Nervous,.Shit,.Deprived,.Provoked,.Worst,.Uninteresting,.Stupid,.Unloved,.Weird,.Hurt,.Overwhelmed,.Abandoned,.Unobtainable,.Beat,.Upset,.Blame,.Disgustingly,.Expended,.Unproductive,.Beaten,.Dishonest,.Dumb,.Disgusting,.Alien,.Isolated,.Lying,.False,.Small,.Dramatic,.Scattered,.Miserable,.Lazy,.Sluggish,.Hectic,.Crazy,.Pudgy,.Heavy,.Creepy,.Restless,.Lousy,.Stressed,.Depressed,.Guilty,.Misguided,.Compromising,.Possessive,.Mental,.Icky,.Awkward,.Used,.Sneak,.Wrenching,.Unresolved,.Distraught,.Poorly,.Depressing,.Artificial,.Unwelcome,.Hungry,.Cold,.Uninspired,.Uneasy,.Afraid,.Negative,.Failing,.Obligated,.Shitty,.Sad,.Minute,.Worse,.Cheap,.Old,.Compelled,.Bad,.Insecure{
+	color:#F03 !important;
+}
+#randomFeeling div{
+	display:none;
+	position: absolute;
+	bottom: 20px;
+	margin: 0 auto;
+	overflow:hidden;
+	font-size: 1.5em;
+	text-align:center;
+	padding: 25px;
+	margin: 0px;
+	height: 20px;
+	width:auto;
+	line-height: 2.5em;
+	z-index: 99999;
+}
+#randomFeeling div span{
+	display:block;
 }
