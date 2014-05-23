@@ -76,7 +76,11 @@ $fontTypes = [
 "'Crafty Girls', cursive",
 "'Josefin Sans', sans-serif",
 "'Noticia Text', serif",
-"'Chewy', cursive"
+"'Chewy', cursive",
+"'Coming Soon', cursive",
+"'Libre Baskerville', serif",
+"'Merriweather', serif",
+"'Dancing Script', cursive"
 ];
 		
 $uniqueFeelings = shuffle($uniqueFeelings);
